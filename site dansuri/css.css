@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(background.jpg);
+	background-size: all;
+	background-repeat: repeat-x;
+	background-color: #111111;
+}
+
+.meniu_container{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: rgba(38,38,38,0.7);
+}
+
+.meniu_item{
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	height: 100%;
+	width: 20%;
+}
+
+.meniu_item:hover{
+	border-radius: 15px;
+	background-color: #808080;
+	transition: 1s;
+	color:#cccccc;
+}
+
+.meniu_item_active{
+	display: block;
+	font-family: monospace;
+	font-size: 30px;
+	color: #d1d1d1;
+	text-transform: uppercase;
+	
+}
+
+.text_box{
+	display: inline-block;
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 320px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px; 
+	padding: 15px;
+	text-align: justify;
+}
+.text_box_istorie{
+	display: inline-block;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 700px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px; 
+	padding: 15px;
+	text-align: justify;
+
+}
+.text_box_contact{
+	display: inline-block;
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 470px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px; 
+	padding: 15px;
+	text-align: left;
+
+}
+.text{
+	font-size: 18px;
+	font-family: monospace;
+	text-transform: initial;
+	margin-top: 3px;
+	color:black;
+}
+
+.text_contact{
+	font-size: 35px;
+	font-family: monospace;
+	text-transform: initial;
+}
+
+.titlu{
+	font-size: 60px;
+	font-family: cursive;
+	text-transform: bold;
+}
+
+.galerie{
+	display: flex;
+ 	flex-flow: wrap;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+}
+.item_galerie{
+	padding: 30px;
+}
+.galerie_imagine:hover{
+	border: solid red 1px;
+}
+	
+.galerie_imagine{
+	height: 250px;
+}
+.galerie_caption{
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+
+
